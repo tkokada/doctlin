@@ -1,10 +1,10 @@
-site_name: Doctlin
+site_name: Doctlin Document
 nav:
   - Home: index.md
   - テスト: test.md
   - Code Reference:
       - Doctlin: doctlin-reference.md
-theme: readthedocs
+#theme: readthedocs
 markdown_extensions:
   - pymdownx.arithmatex
 extra_javascript:
@@ -13,9 +13,9 @@ plugins:
   - search
   - mkdocstrings
 
-#theme:
-#  name: material
-#  language: 'ja'
-#extra:
-#  search:
-#    language: 'ja'
+theme:
+  name: material
+  language: 'ja'
+extra:
+  search:
+    language: 'ja'
