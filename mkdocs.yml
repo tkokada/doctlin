@@ -19,3 +19,4 @@ theme:
 extra:
   search:
     language: 'ja'
+  generator: false
