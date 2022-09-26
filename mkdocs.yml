@@ -26,9 +26,17 @@ plugins:
       nav_translations:
         en:
           About: About
+          Reference: Code Reference
           Test: Test
-  - mkdocstrings
-
+  - mkdocstrings:
+      watch:
+        - doctlin
+#    custom_templates: templates
+#    default_handler: python
+#    handlers:
+#      python:
+#        options:
+#          show_source: true
 #nav:
 #  - index.en.md
 #  - index.md
