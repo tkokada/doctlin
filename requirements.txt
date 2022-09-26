@@ -6,6 +6,9 @@ mkdocs-section-index==0.3.4
 mkdocstrings-python-legacy==0.2.3
 griffe==0.22.1
 mkdocs-material==8.5.3
+mkdocs-i18n==0.4.4
+
+mkdocs-static-i18==0.47
 
 pymdown-extensions==9.5
 mkdocstrings-python==0.5.2

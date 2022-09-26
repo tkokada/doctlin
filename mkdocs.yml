@@ -1,45 +1,44 @@
-site_name: Doctlin
-site_url: https://example.com/
-nav:
-  - Overview: index.md
-  - About: about.md
-  - Test: test.md
-  - Code Reference: reference/
-#theme: readthedocs
-#markdown_extensions:
-#  - pymdownx.arithmatex
+theme:
+  name: material
+  #name: readthedocs
 
-extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  -
+site_name: Doctlin
+
 plugins:
   - search
-  - gen-files:
-      scripts:
-        - docs/gen_ref_pages_techolga.py
-  - literate-nav:
-      nav_file: SUMMARY.md
-#  - section-index
-  - mkdocstrings:
-      handlers:
-        python:
-          setup_commands:
-            - import os
-            - import sys
-            - sys.path.insert(0, os.path.abspath('.'))
-          rendering:
-            show_submodules: yes
-            show_if_no_docstring: yes
+  - i18n:
+      default_language: ja
+#      languages:
+#        en: English
+#        ja: 日本語
+      languages:
+        default:
+          name: Default (ja)
+          build: true
+        en:
+          name: English
+          build: true
+          site_name: "Doctlin document"
+        ja:
+          name: 日本語
+          build: true
+          site_name: "Docutlin document JP"
+      nav_translations:
+        en:
+          About: About
+          Test: Test
 
-theme:
-  name: readthedocs
-#  name: "material"
-  language: 'ja'
-
-extra:
-  search:
-    language: 'ja'
-  generator: false
-
-extra_css:
-  - css/code_select.css
+watch:
+  - doctlin
+#nav:
+#  - index.en.md
+#  - index.md
+#  - About:
+#    - en/about.en.md
+#    - ja/about.en.md
+#  - Test:
+#      - en/test.en.md
+#      - ja/test.en.md
+#  - Code Reference:
+#      - reference/
+#      - reference/
