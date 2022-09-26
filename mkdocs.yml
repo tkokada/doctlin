@@ -27,9 +27,8 @@ plugins:
         en:
           About: About
           Test: Test
+  - mkdocstrings
 
-watch:
-  - doctlin
 #nav:
 #  - index.en.md
 #  - index.md
