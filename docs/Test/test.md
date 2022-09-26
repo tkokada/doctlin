@@ -1,13 +1,13 @@
-# テストページ
+# Test
 
-## 項目1
-ホゲホゲ
+## Section1
+Hogehoge
 
-## 項目2
-フガフガ
+## Section2
+Fugafuga
 
-## 数式です
-インライン形式の数式$f(x) = ax + b$。ディスプレイ形式でも行けます。
+## Math
+Inline sytle math$f(x) = ax + b$. Display style is following:
  
 $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}

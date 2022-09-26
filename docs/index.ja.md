@@ -1,15 +1,15 @@
 # Doctlin
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+ドキュメント詳細 [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## コマンド
 
-* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs new [dir-name]` - 新規プロジェクト作成
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-## Project layout
+## プロジェクトレイアウト
 
     mkdocs.yml    # The configuration file.
     docs/
